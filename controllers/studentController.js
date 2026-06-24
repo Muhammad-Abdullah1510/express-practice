@@ -4,8 +4,6 @@ let students = require("../data/students");
 exports.getAllStudents = (req, res) => {
     res.json(students);
 };
-
-
 exports.getStudentById = (req, res) => {
     const id = parseInt(req.params.id);
 
